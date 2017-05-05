@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     width: 200,
     textAlign: 'center',
     backgroundColor: '#FFF',
-    color: 'black',
+    borderWidth: 0.5,
+    borderColor: '#C0C0C0',
   },
   header: {
     fontSize: 40,
