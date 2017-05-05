@@ -12,10 +12,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#EDEDED',
   },
   textInput: {
+    alignSelf: 'center',
     height: 30,
     width: 200,
     textAlign: 'center',
     backgroundColor: '#FFF',
+    color: 'black',
   },
   header: {
     fontSize: 40,
