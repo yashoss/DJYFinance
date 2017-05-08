@@ -3,13 +3,26 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+
+  },
+  landingContainer: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#EDEDED',
   },
-  word: {
-    fontSize: 100,
-    color: 'red',
+  textInput: {
+    alignSelf: 'center',
+    height: 30,
+    width: 200,
+    textAlign: 'center',
+    backgroundColor: '#FFF',
+    borderWidth: 0.5,
+    borderColor: '#C0C0C0',
+  },
+  header: {
+    fontSize: 40,
+    color: 'black',
   }
 });
 
