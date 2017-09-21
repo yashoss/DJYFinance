@@ -11,14 +11,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#EDEDED',
   },
-  textInput: {
-    alignSelf: 'center',
-    height: 30,
+  picker: {
     width: 200,
-    textAlign: 'center',
+    height: 80,
     backgroundColor: '#FFF',
-    borderWidth: 0.5,
-    borderColor: '#C0C0C0',
   },
   header: {
     fontSize: 40,
