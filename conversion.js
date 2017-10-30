@@ -110,7 +110,7 @@ export default class Conversion extends React.Component{
         </View>
         <Text>-To-</Text>
         <View>
-          <Text>{this.state.newAmount}</Text>
+          <Text style={styles.numberDisplay}>{this.state.newAmount}</Text>
           <Picker
             style={styles.picker}
             itemStyle={{height: 80}}

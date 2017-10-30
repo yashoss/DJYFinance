@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
   },
   textInput: {
     alignSelf: 'center',
+    fontSize: 20,
     height: 30,
     width: WIDTH,
     textAlign: 'center',
@@ -31,6 +32,16 @@ const styles = StyleSheet.create({
     borderWidth: 0.5,
     borderColor: '#C0C0C0',
   },
+  numberDisplay: {
+    textAlign: 'center',
+    lineHeight: 30,
+    fontSize: 20,
+    height: 30,
+    width: WIDTH,
+    backgroundColor: '#FFF',
+    borderWidth: 0.5,
+    borderColor: '#C0C0C0',
+  }
 });
 
 export default styles;
