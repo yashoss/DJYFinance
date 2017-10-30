@@ -28,7 +28,6 @@ export default class Conversion extends React.Component{
       return fetch(myQuery)
         .then((response) => response.json())
         .then((response) => {
-          debugger
           this.setState({rate: response.rates}, () => {
             this.convert();
           })
@@ -38,6 +37,16 @@ export default class Conversion extends React.Component{
   }
 
   convert() {
+    var numbers = "0123456789";
+    var text = this.state.amount;
+
+    for (var i = 0; i < text.length; i++) {
+      if(numbers.indexOf(text[i]) === -1) {
+        alert("Please enter numbers only.");
+        return;
+      }
+    }
+
     var baseAmount = Number(this.state.amount);
     var rate = this.state.rate.hasOwnProperty("same") ?
       Number(this.state.rate["same"]): Number(this.state.rate[this.state.to]);
@@ -47,18 +56,6 @@ export default class Conversion extends React.Component{
   }
 
   handleAmountChange(text){
-    let newText = '';
-    let numbers = '0123456789';
-
-    for (var i = 0; i < text.length; i++) {
-      if(numbers.indexOf(text[i]) > -1) {
-        newText += text[i];
-      }
-      else {
-        alert("Please enter numbers only.");
-        return;
-      }
-    }
     this.setState({amount: text});
   }
 
