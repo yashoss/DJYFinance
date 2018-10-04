@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#EDEDED',
   },
   header: {
-    fontSize: 41,
+    fontSize: 40,
     color: 'black',
   },
   picker: {
