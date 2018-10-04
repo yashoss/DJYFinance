@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
   picker: {
     width: WIDTH,
-    height: 80,
+    height: 81,
     backgroundColor: '#FFF',
     marginBottom: 10,
   },
