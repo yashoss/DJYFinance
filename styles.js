@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   },
   header: {
     fontSize: 40,
-    color: 'black',
+    color: 'red',
   },
   picker: {
     width: WIDTH,
