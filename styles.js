@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     width: WIDTH,
     height: 81,
     backgroundColor: '#FFF',
-    marginBottom: 10,
+    marginBottom: 11,
   },
   textInput: {
     alignSelf: 'center',
