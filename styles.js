@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#EDEDED',
+    backgroundColor: '#EDEDEF',
   },
   header: {
     fontSize: 40,
