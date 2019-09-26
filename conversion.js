@@ -105,7 +105,7 @@ export default class Conversion extends React.Component{
             <Picker.Item label='THB' value='THB' />
             <Picker.Item label='TRY' value='TRY' />
             <Picker.Item label='USD' value='USD' />
-            <Picker.Item label='BAR' value='ZAR' />
+            <Picker.Item label='ZAR' value='ZAR' />
           </Picker>
         </View>
         <Text>-To-</Text>
