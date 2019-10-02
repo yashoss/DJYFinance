@@ -13,6 +13,8 @@ export default class Landing extends React.Component{
     return(
       <View style={styles.landingContainer}>
         <Text style={styles.header}>DJY Finance</Text>
+                <Text style={styles.header}>Test</Text>
+
         <Conversion/>
       </View>
     )
